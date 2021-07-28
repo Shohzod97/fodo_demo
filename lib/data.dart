@@ -5,7 +5,7 @@ import 'package:flutter/foundation.dart';
 
 class Data with ChangeNotifier {
   //image
-  File _xImage = File("");
+  var _xImage;
 
   File get getImage => _xImage;
 
@@ -30,6 +30,7 @@ class Data with ChangeNotifier {
   }
 
   num buy(num cost) => _money -= cost;
+
 }
 
 

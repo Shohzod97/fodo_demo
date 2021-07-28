@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+
 import 'item_price_button.dart';
 import 'item_title.dart';
 
-Widget titlePriceBuy(reward, data, inventory, BuildContext context) =>
+Widget bottomPart(reward, data, inventory, BuildContext context) =>
     Container(
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

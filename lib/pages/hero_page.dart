@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+
 import '../hero_page/name_hero.dart';
-import 'package:flutter_myapp_demo/hero_page/image_hero.dart';
+import '../hero_page/image_hero.dart';
 import '../hero_page/build_icons.dart';
 import '../hero_page/veiw_inventory.dart';
 

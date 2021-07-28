@@ -1,7 +1,8 @@
-import 'dart:io';
 import 'package:flutter/material.dart';
+import 'dart:io';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';
+
 import '../data.dart';
 
 var pathCheck;
@@ -13,7 +14,7 @@ class ImageHero extends StatefulWidget {              //Фото и его из�
 }
 
 class _ImageHeroState extends State<ImageHero> {
-  File _image = File("");
+  var _image;
   final picker = ImagePicker();
   Future getImage() async {
     final pickedFile = await picker.getImage(source: ImageSource.gallery);

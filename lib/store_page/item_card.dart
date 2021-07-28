@@ -1,9 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_myapp_demo/store_page/title_price_buy.dart';
 import 'package:provider/provider.dart';
+
 import '../data.dart';
 import 'item_image.dart';
+import '../store_page/bottom_part.dart';
 
 class ItemCard extends StatelessWidget {                //Карточка награды
   @override
@@ -26,7 +27,7 @@ class ItemCard extends StatelessWidget {                //Карточка на�
         children: [
           itemImage(reward),                                    //Фото награды
           SizedBox(height: 10),
-          titlePriceBuy(reward, data, inventory, context)      //название, цена и "Купить"
+          bottomPart(reward, data, inventory, context)      //название, цена и "Купить"
         ],
       ),
     );

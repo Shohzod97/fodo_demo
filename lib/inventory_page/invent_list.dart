@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_myapp_demo/data.dart';
 import 'package:provider/provider.dart';
+
+import '../data.dart';
 import 'invent_item.dart';
 
 class InventoryList extends StatelessWidget {              //список приобретенных вознаграждений
@@ -39,7 +40,7 @@ class InventoryList extends StatelessWidget {              //список при
 
   Widget _swipeBackground(color, icon, align) => Container(
         alignment: align,
-        padding: EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
         color: color,
         child: Icon(
           icon,

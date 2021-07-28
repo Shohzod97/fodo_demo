@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 import 'edit_task.dart';
 
 class TaskCard extends StatelessWidget {         //Карточка задания в списке
@@ -16,7 +17,7 @@ class TaskCard extends StatelessWidget {         //Карточка задани
     return Card(
       elevation: 10,
       shadowColor: Colors.black87,
-      margin: EdgeInsets.symmetric(vertical: 5),
+      margin: const EdgeInsets.symmetric(vertical: 5),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       child: ListTile(
         contentPadding:

@@ -3,10 +3,10 @@ import 'package:flutter_myapp_demo/pages/inventory_page.dart';
 import 'package:provider/provider.dart';
 
 import 'data.dart';
-import 'package:flutter_myapp_demo/pages/home_page.dart';
-import 'package:flutter_myapp_demo/pages/hero_page.dart';
-import 'package:flutter_myapp_demo/pages/todo_page.dart';
-import 'package:flutter_myapp_demo/pages/store_page.dart';
+import 'pages/home_page.dart';
+import 'pages/hero_page.dart';
+import 'pages/todo_page.dart';
+import 'pages/store_page.dart';
 
 void main() => runApp(MyApp());
 

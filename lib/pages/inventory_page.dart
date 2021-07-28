@@ -1,8 +1,9 @@
-import 'package:flutter_myapp_demo/data.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_myapp_demo/inventory_page/invent_list.dart';
-import 'package:flutter_myapp_demo/inventory_page/show_go_store.dart';
 import 'package:provider/provider.dart';
+
+import '../data.dart';
+import '../inventory_page/show_go_store.dart';
+import '../inventory_page/invent_list.dart';
 
 class InventoryPage extends StatelessWidget {
   @override

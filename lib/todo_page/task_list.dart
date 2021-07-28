@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_myapp_demo/data.dart';
+
+import '../data.dart';
 import 'task_card.dart';
 
 class TaskList extends StatelessWidget {                        //отображение списка
@@ -46,7 +47,7 @@ class TaskList extends StatelessWidget {                        //отображ
 
   Widget _swipeBackground(color, icon, align) => Container(                   //задний фон при свайпе
         alignment: align,
-        padding: EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
         color: color,
         child: Icon(
           icon,

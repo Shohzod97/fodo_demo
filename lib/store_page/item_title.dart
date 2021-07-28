@@ -6,5 +6,5 @@ Widget itemTitle(reward) => Container(          //название наград�
         style: TextStyle(
             fontSize: 18, color: Colors.white, fontWeight: FontWeight.bold),
       ),
-      margin: EdgeInsets.only(left: 20),
+      margin: const EdgeInsets.only(left: 20),
     );

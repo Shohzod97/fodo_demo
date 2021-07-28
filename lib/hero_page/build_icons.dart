@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_myapp_demo/data.dart';
 import 'package:provider/provider.dart';
+
+import '../data.dart';
 
 Widget buildIcons(BuildContext context) => Card(        //характеристики героя
       child: Container(

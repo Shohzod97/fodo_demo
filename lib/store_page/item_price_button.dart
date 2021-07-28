@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'buy_button.dart';
 
 Widget itemPriceButton(reward, data, inventory, BuildContext context) => Row(   //название, цена и "Купить"

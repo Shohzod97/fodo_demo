@@ -1,8 +1,10 @@
-import 'package:flutter_myapp_demo/data.dart';
-import 'package:flutter_myapp_demo/todo_page/add_task.dart';
-import 'package:flutter_myapp_demo/todo_page/task_list.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import '../data.dart';
+import '../todo_page/add_task.dart';
+import '../todo_page/task_list.dart';
+
 
 class TodoPage extends StatelessWidget {
   @override
